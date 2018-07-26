@@ -11,7 +11,7 @@ I would like to thank the organizers.
 Like many of you, I am not too excited to be on this side of the podium. Let's hope the talk goes like planned...
 
 #### Slide 3
-I spent much of the winter creating notebooks to explain TMT data normalization and statistical testing. They are available on Github (www.github.com/pwilmart). Around the time the call for abstracts for this meeting went out, there was this Atlantic article claiming that notebooks could replace papers. That made me think that a little tour of notebooks would be fun.
+I spent much of the winter creating notebooks to explain TMT data normalization and statistical testing. They are available on Github (www.github.com/pwilmart). Around the time the call for abstracts for this meeting went out, there was this Atlantic article claiming that notebooks could replace papers. That made me think that a little introduction to notebooks would be fun.
 
 #### Slide 4
 The Atlantic article claims that notebooks can replace traditional scientific papers. What kind of notebooks are they talking about? They are not electronic lab notebooks, nor are they similar to Evernote notebooks. The notebooks are like Mathematica notebooks and their newer open source variant Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. Notebooks can render rich text formatting, execute code blocks (typically Python or R), and display the output (graphics and text) from the code blocks. I will show you Jupyter notebooks today, but R Markdown in RStudio is conceptually very similar.
