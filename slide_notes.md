@@ -80,7 +80,7 @@ A paper we published last May in MCP (Plubell, et al.) introduced an internal re
 
 This means that the reporter ions within each single scan have high precision, but the overall magnitude of the reporter ions between scans (of the same peptide sequence) can be all over the map. Therefore, sums of wildly varying PSM reporter ions will give rise to wildly varying peptide totals and protein totals. Note that the relative precision of reporter ions to each other in the same TMT plex will be preserved.
 
-If we put something identical (an internal reference) in each TMT plex, we should measure the same value for each protein in each plex. We will not due to random MS2 sampling; however, we can average our reference values and see how much each one was distorted. We can then "un-distort" the data and undo the random MS2 sampling effect. See www.github.com/pwilmart/IRS_normalization for more details.
+If we put something identical (an internal reference) in each TMT plex, we should measure the same value for each protein in each plex. We will not get the same values due to random MS2 sampling; however, we can average our reference values and see how much each one was distorted. We can then "un-distort" the data and undo the random MS2 sampling effect. See www.github.com/pwilmart/IRS_normalization for more details.
 
 We can look at the same three plots after doing an IRS-like correction. The box plot looks very similar. It already looked great and we can't do much to make it even more greater... The cluster plot no longer groups by TMT experiment and, instead, groups by developmental time. The protein CVs have been reduced to 13%, a very low value.  
 
