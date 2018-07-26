@@ -85,7 +85,7 @@ If we put something identical (an internal reference) in each TMT plex, we shoul
 We can look at the same three plots after doing an IRS-like correction. The box plot looks very similar. It already looked great and we can't do much to make it even more greater... The cluster plot no longer groups by TMT experiment and, instead, groups by developmental time. The protein CVs have been reduced to 13%, a very low value.  
 
 #### Slide 19
-Here, I just show both sets of 3 plots side-by-side to make the comparison easier to see. The top box plots look nearly the same and this whole distribution of intensities view obscures what is going on at the individual protein level. The cluster plots and CV distributions are much better at probing what is going on with individual proteins. With IRS, it is like you have 18-plex TMT reagents!
+Here, I just show both sets of 3 plots side-by-side to make the comparison easier to see. The top box plots look nearly the same, and this whole distribution of intensities view obscures what is going on at the individual protein level. The cluster plots and CV distributions are much better at probing what is going on with individual proteins. With IRS, it is like you have 18-plex TMT reagents!
 
 #### Slide 20
 But wait. R has many more ways to visualize data. We have three replicates at each time point. We can pick each time point and see how similar the biological replicates are to each other. We can use a function from the "psych" package to do multi-panel scatter plots. With a single line of code, we can get the 9-panel plots. We can compare without IRS (left) to with IRS (right).
